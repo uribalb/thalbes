@@ -6,5 +6,5 @@ These are very script-like programs, so not intended to be reused "as is" but th
 Possible areas of improvement:
 + The data pipeline sucks; it would be preferable to use dask and/or tf.data for that
 + The models and their training could be wrapped in classes
-+ The trainig data should use a more agnostic format like parquet or hdf5
++ The training data should use a more efficient format like parquet or hdf5
 + The specific dataset used is too shallow to truly demonstrate the power of vector representation models; which made the plain model look too good
